@@ -8,11 +8,11 @@ Una startup tecnológica va a desarrollar un portal de ELearning y nos ha pedido
 
 A tener en cuenta:
 
--Va a ser un portal orientado al mundo de la programación.
--El portal va a estar compuesto por cursos, cada curso está compuesto a su vez por un número de videos y artículos que lo acompañen.
--Los videos y el contenido de cada artículo se almacenan en un storage S3 y en un headless CMS, en la base de datos sólo almacenaremos los Id's a esos recursos.
--Los videos se puede clasificar por temáticas (Devops / Front End / Back End / ...)
--Los videos tienen autores (ponemos la restricción, un video tiene un autor), un curso puede tener varios autores.
+- Va a ser un portal orientado al mundo de la programación.
+- El portal va a estar compuesto por cursos, cada curso está compuesto a su vez por un número de videos y artículos que lo acompañen.
+- Los videos y el contenido de cada artículo se almacenan en un storage S3 y en un headless CMS, en la base de datos sólo almacenaremos los Id's a esos recursos.
+- Los videos se puede clasificar por temáticas (Devops / Front End / Back End / ...)
+- Los videos tienen autores (ponemos la restricción, un video tiene un autor), un curso puede tener varios autores.
 
 Desde mi punto de vista, el modelado de la aplicación solicitada se basa fundamentealmente en 2 tablas. 
 
