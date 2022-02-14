@@ -2,6 +2,8 @@
 
 ## Diagrama del modelo de datos:
 
+![modelado](modelado.png)
+
 Una startup tecnológica va a desarrollar un portal de ELearning y nos ha pedido que realizamos el modelo de datos de dicho sistema.
 
 A tener en cuenta:
